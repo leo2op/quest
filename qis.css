@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+<title>
+
+</title>
+
+</head>
+
+<body>
+
+<style>
+
+body{
+background-image: url("bg.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.logo{
+margin-left:100px;
+margin-top:50px;
+display:inline-block;
+}
+
+.phone{
+margin-right:250px;
+margin-top:75px;
+float:right;
+color:black;
+font-family:Oswald,sans-serif;
+font-size:150%;
+display:inline-block;
+}
+
+.navbar{
+padding:0px;
+margin-top:30px;
+margin-left:100px;
+margin-right:100px;
+list-style-type:none;
+overflow:hidden;
+background-color: rgba(10,10,10,.5);
+font-family:Oswald,sans-serif;
+}
+
+.navbar li {
+  float: right;
+  
+}
+
+.navbar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+  background-color: #111;
+}
+
+
+.menu{
+  list-style-type: none;
+  margin-bottom:5px;
+  margin-top:0px;
+  margin-left:100px;
+  margin-right:100px;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.menu li {
+  float: left;
+  
+}
+
+.menu li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 90px;
+  text-decoration: none;
+width: 33.3%;
+
+}
+
+.menu li a:hover{
+  background-color: rgba(0,0,0,0.3);
+
+}
+
+</style>
+
+<div class="logo">
+<img src="logo.png" alt="Quest Logo">
+</div>
+
+<div class="phone">
+91-484-2204108
+<i class="fas fa-phone"></i>
+</div>
+
+<div>
+
+<ul class="navbar">
+  <li><a href="">Contact Us</a></li>
+  <li><a href="">Career</a></li>
+  <li><a href="">Training</a></li>
+  <li><a href="">Products</a></li>
+  <li><a href="">Services</a></li>
+  <li><a href="">About</a></li>
+  <li style="float:left"><a class="home" href=""><img src="home.png" id="homeimg"/></a></li>
+</ul>
+
+</div>
+
+<div>
+
+<ul class="menu">
+  <li><a class="one" href="">Software Development</a></li>
+  <li><a class="two" href="">Research and Development</a></li>
+  <li><a class="three" href="">Software Consultancy</a></li>
+</ul>
+
+</div>
+
+<div>
+
+<ul class="menu">
+  <li><a class="four" href="">Training</a></li>
+  <li><a class="five" href="">QIS Academy</a></li>
+  <li><a class="six" href="">ISO Certificate</a></li>
+</ul>
+
+</div>
+
+
+</body>
+
+</html>
